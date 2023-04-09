@@ -40,4 +40,10 @@ export const SpincordCommands = {
         argumentDescription: 'the name of the album being searched for',
         description: 'gets an image of a given artist',
     },
-};
+    search_catalog: {
+        name: 'search_catalog',
+        argumentName: 'catalog-id',
+        argumentDescription: 'the catalog ID of the album being searched for',
+        description: 'searches for an album by catalog ID',
+    }
+    }
